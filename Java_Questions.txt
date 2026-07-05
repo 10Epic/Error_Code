@@ -1,0 +1,1144 @@
+1 - What data type is '9' in Java?
+int
+String
+> char
+byte
+Single quotes represent a single character in Java.
+Even though 9 looks numeric, '9' is treated
+as a character symbol instead of a number.
+If written without quotes it would become
+an int, while double quotes would create
+a String.
+
+2 - What happens if a while loop condition never becomes false?
+The loop skips automatically.
+The computer shuts down.
+> The loop becomes infinite.
+The loop turns into an if statement.
+An infinite loop occurs when the condition
+always stays true. Since the condition
+never becomes false, the loop keeps
+running forever unless manually stopped.
+
+3 - Which keyword prevents a variable from changing after assignment?
+static
+const
+> final
+fixed
+The final keyword creates a constant variable.
+Once a value is assigned, it cannot be changed
+later in the program. This protects important
+values from accidental modification.
+
+4 - Which primitive type stores decimal numbers most accurately?
+int
+boolean
+> double
+char
+A double stores floating-point numbers with
+decimal values like 3.14 or 9.81. Integer
+types cannot store decimals because they
+only hold whole numbers.
+
+5 - What is printed by System.out.println(9 / 2); ?
+4.5
+> 4
+5
+Error
+Both numbers are integers, so Java performs
+integer division. Integer division removes
+the decimal portion instead of rounding
+the result.
+
+6 - Which operator means “NOT EQUAL TO” in Java?
+<>
+==
+> !=
+=
+The != operator checks whether two values
+are different. If the values are not equal,
+the entire condition becomes true.
+
+7 - What happens if you place a semicolon after an if statement?
+The program crashes.
+The condition becomes false.
+> The block underneath always runs.
+The if statement loops forever.
+A semicolon ends the if statement immediately.
+This creates an empty if body, so the block
+underneath is no longer controlled by
+the condition.
+
+8 - Which loop is best when you know exactly how many repetitions are needed?
+while
+if
+do-while
+> for
+A for loop is designed for counted repetition.
+It combines initialization, condition checking,
+and updating into one organized structure.
+
+9 - Which keyword immediately exits a loop?
+continue
+stop
+return
+> break
+The break keyword instantly terminates the
+current loop and continues execution after
+the loop finishes.
+
+10 - Which operator represents logical OR?
+&&
+!
+OR
+> ||
+The || operator means logical OR. If at least
+one condition is true, the overall expression
+becomes true.
+
+11 - What is the default value of an int field variable?
+null
+-1
+undefined
+> 0
+Field variables automatically receive default
+values in Java. Integer fields are initialized
+to 0 if no value is assigned manually.
+
+12 - Which of these is NOT a primitive data type?
+float
+double
+boolean
+> String
+String is a class, not a primitive type.
+Primitive types are built directly into
+the Java language itself.
+
+13 - Which keyword creates inheritance between classes?
+implements
+inherits
+super
+> extends
+The extends keyword allows one class to
+inherit variables and methods from another
+class. This helps programmers reuse code.
+
+14 - What does the this keyword refer to?
+The previous method
+The class itself
+> The current object
+The compiler
+The this keyword refers to the current object
+instance that is running the code. It helps
+distinguish field variables from local ones.
+
+15 - Which loop always runs at least once?
+for
+while
+if
+> do-while
+A do-while loop checks its condition after
+running the loop body. Because of this,
+the loop always executes at least one time.
+
+16 - What is the result of true && false ?
+true
+1
+> false
+Error
+The logical AND operator requires both
+conditions to be true. Since one value
+is false, the overall result becomes false.
+
+17 - What is Integer.MAX_VALUE?
+The smallest integer value.
+A decimal limit.
+> The largest possible int value.
+A memory location.
+Integer.MAX_VALUE stores the highest number
+that can fit inside an int before overflow
+occurs.
+
+18 - What happens when an int exceeds Integer.MAX_VALUE?
+The program crashes.
+The number freezes.
+> It wraps into a negative value.
+It becomes a double.
+Integers overflow in Java. When the maximum
+value is exceeded, the number wraps around
+into the negative range.
+
+19 - Which keyword is used to create an object?
+class
+import
+> new
+make
+The new keyword allocates memory and creates
+a new object instance in Java.
+
+20 - What does the ! operator do?
+Ends the program.
+Makes code faster.
+> Reverses a boolean value.
+Creates a loop.
+The ! operator means logical NOT. It changes
+true to false and false to true.
+
+21 - A hacker stores 5 passwords in an array. What is the index of the FIRST password?
+1
+-1
+> 0
+5
+Java arrays use zero-based indexing, meaning
+the first element is always stored at index 0.
+
+22 - What is the LAST valid index in an array of size 10?
+10
+1
+> 9
+0
+Since arrays start counting at 0, the last
+valid index is always one less than the
+array size.
+
+23 - What happens if you access an invalid array index?
+The array grows automatically.
+Nothing happens.
+> ArrayIndexOutOfBoundsException
+The value becomes null.
+Java throws an ArrayIndexOutOfBoundsException
+when code tries to access a position that
+does not exist.
+
+24 - Which syntax correctly declares an integer array?
+array int nums;
+int nums;
+> int[] nums;
+nums<int>;
+Arrays in Java are declared using square
+brackets. int[] nums creates a reference
+to an integer array.
+
+25 - What value is stored in a newly created int array by default?
+Random garbage values
+null
+> 0
+1
+Numeric arrays automatically initialize
+their elements to 0 when created.
+
+26 - What does arr.length return?
+The last index
+The first value
+> The number of elements
+The memory size
+The length field stores the total number
+of elements inside the array.
+
+27 - What is an Array?
+A type of integer
+> a data type in which multiple similar data structures can be stored
+An API
+Place to store only strings
+It is a data type marked with [] to store
+multiple similar data types like string, int etc.
+
+28 - Can Java arrays change size after creation?
+Yes automatically.
+Only with doubles.
+> No, arrays are fixed-size.
+Only if public.
+Arrays in Java have a permanent size once
+created. To resize, programmers usually
+create a new array instead.
+
+29 - Which value represents “nothing” for object references?
+0
+false
+> null
+empty
+Null means a reference points to no object
+in memory. Attempting to use a null object
+causes a NullPointerException.
+
+30 - What is printed when you directly print an array object?
+All values
+Nothing
+> A memory reference
+Only the first value
+Printing an array directly shows its internal
+reference information instead of its contents.
+
+31 - Which keyword is used to inherit a parent class?
+super
+implements
+> extends
+inherit
+The extends keyword connects a child class
+to a parent class through inheritance.
+
+32 - What happens when a child overrides a parent method?
+The program crashes.
+Both methods run together.
+> The child version replaces the parent version.
+The parent method deletes itself.
+Method overriding allows the child class
+to provide its own version of a method.
+
+33 - What does super() do in a constructor?
+Deletes the parent object.
+Restarts the constructor.
+> Calls the parent constructor.
+Creates recursion.
+The super() call runs the constructor of
+the parent class before the child continues.
+
+34 - Which class is the ancestor of every Java class?
+Main
+Super
+> Object
+Root
+Every class in Java automatically inherits
+from the Object class either directly
+or indirectly.
+
+35 - If a parent variable is private, can the child access it directly?
+Yes always.
+Only with super.
+> No
+Only in the same file.
+Private variables are only accessible inside
+their own class. Child classes cannot
+directly access them.
+
+36 - What does @Override help with?
+Increasing speed
+Creating objects
+> Checking method overriding correctness
+Making methods public
+@Override tells the compiler to verify that
+a method is actually overriding a parent
+method correctly.
+
+37 - Which keyword creates an object from a class?
+make
+build
+> new
+object
+The new keyword allocates memory and creates
+an instance of a class.
+
+38 - What is a constructor mainly used for?
+Destroying objects
+Creating loops
+> Initializing objects
+Drawing graphics
+Constructors initialize object data when
+a new object is created.
+
+39 - What happens if you do not write a constructor?
+The class breaks.
+The object becomes null.
+> Java provides a default constructor.
+The program crashes.
+Java automatically creates a hidden default
+constructor if none are written manually.
+
+40 - What does the this keyword usually help distinguish?
+Methods from loops
+Arrays from files
+> Field variables from local variables
+Classes from packages
+The this keyword helps identify field variables
+when local variables have the same name.
+
+41 - Which class is commonly used to write text into a file?
+Scanner
+FileReader
+> PrintWriter
+System.out
+PrintWriter is commonly used for writing text
+data into files. It provides methods like
+print and println that work similarly to
+System.out.
+
+42 - What happens if you try reading a file that does not exist?
+Java creates the file automatically.
+The program skips the file.
+> FileNotFoundException occurs.
+The file becomes empty.
+Java throws a FileNotFoundException when
+a program tries to open a file that cannot
+be found at the specified location.
+
+43 - Why should file streams be closed after use?
+To make Java faster.
+To delete the file.
+> To release resources and save data properly.
+To clear RAM.
+Closing file streams releases system resources
+and ensures all buffered data is properly
+written to the file.
+
+44 - What does Scanner.nextLine() read?
+One character
+One word
+> An entire line of text
+Only numbers
+The nextLine method reads everything until
+the user presses Enter, including spaces.
+
+45 - Which package contains the Scanner class?
+java.io
+javax.swing
+> java.util
+java.awt
+The Scanner class belongs to the java.util
+package, which contains utility classes.
+
+46 - What does the append option do in FileWriter?
+Deletes the file
+Creates a folder
+> Adds new text to the end of a file
+Locks the file
+Appending allows programs to keep existing
+file contents and add new data at the end.
+
+47 - Which exception is heavily associated with file handling?
+ArithmeticException
+NullPointerException
+> IOException
+ArrayIndexOutOfBoundsException
+IOException represents problems involving
+input and output operations like files.
+
+48 - What is the purpose of a try-catch block?
+To repeat code
+To speed up loops
+> To handle errors safely
+To create variables
+Try-catch blocks prevent programs from
+crashing when unexpected errors occur.
+
+49 - Which object does Scanner need to read from a file?
+A JFrame
+A StringBuilder
+> A File object
+A Timer
+Scanner requires a File object so Java knows
+which file should be opened and read.
+
+50 - What does BufferedWriter mainly improve?
+Graphics rendering
+Array size
+> File writing speed
+Keyboard input
+BufferedWriter reduces direct disk access by
+temporarily storing data in memory first.
+
+51 - Which Swing class creates the main application window?
+JPanel
+JButton
+> JFrame
+JLabel
+A JFrame represents the main window that
+holds all panels and components in a
+Swing application.
+
+52 - What is the main purpose of a JPanel?
+Playing sound
+Handling internet access
+> Organizing components
+Running files
+JPanels act as containers that help organize
+buttons, labels, and other components.
+
+53 - Which layout manager divides space into rows and columns?
+BorderLayout
+FlowLayout
+> GridLayout
+CardLayout
+GridLayout places components into equally
+sized grid cells arranged in rows and columns.
+
+54 - Which layout manager is perfect for switching between screens?
+FlowLayout
+GridLayout
+> CardLayout
+BorderLayout
+CardLayout allows programmers to swap between
+multiple panels like game screens or menus.
+
+55 - Which method makes a JFrame appear on screen?
+open()
+showFrame()
+> setVisible(true)
+display()
+Swing windows remain hidden until setVisible(true)
+is called.
+
+56 - Which method changes the size of a JFrame?
+resizeFrame()
+> setSize()
+scaleWindow()
+expand()
+The setSize method changes the width and
+height of a JFrame window.
+
+57 - Which region of BorderLayout usually holds the main content?
+NORTH
+SOUTH
+> CENTER
+WEST
+The CENTER region expands to fill most of
+the available space inside a BorderLayout.
+
+58 - What happens if two components are added to the same BorderLayout region?
+Both appear normally.
+The program crashes.
+> The second replaces the first.
+The components merge together.
+BorderLayout only allows one component per
+region, so the newer component replaces
+the older one.
+
+59 - Which method is overridden for custom drawing in Swing?
+draw()
+update()
+> paintComponent(Graphics g)
+render()
+paintComponent is responsible for custom
+graphics drawing on JPanel objects.
+
+60 - What does the Graphics object act like?
+A file reader
+A keyboard
+> A paintbrush
+A timer
+The Graphics object contains drawing methods
+used for shapes, colors, and text.
+
+61 - Where is coordinate (0,0) located in Java graphics?
+Bottom-right
+Center
+> Top-left
+Bottom-left
+Java graphics coordinates begin in the
+top-left corner of the component.
+
+62 - Which method draws a filled rectangle?
+drawRect()
+paintRect()
+> fillRect()
+solidRect()
+fillRect creates a solid rectangle using
+the current drawing color.
+
+63 - What happens after calling g.setColor(Color.RED)?
+The background changes forever.
+The program resets.
+> Future drawings become red.
+Only text changes color.
+The setColor method changes the current
+drawing color for future shapes and text.
+
+64 - Which method tells a component to redraw itself?
+refresh()
+paint()
+> repaint()
+reload()
+Calling repaint requests Swing to redraw
+the component using paintComponent.
+
+65 - Which class is commonly used to display images in Swing?
+JPicture
+PhotoFrame
+> ImageIcon
+GraphicsLoader
+ImageIcon loads image files so they can
+be displayed inside labels or buttons.
+
+66 - Why is super.paintComponent(g) important?
+It creates timers.
+It speeds up Java.
+> It clears old drawings properly.
+It loads images.
+Calling super.paintComponent clears previous
+graphics so drawings do not smear together.
+
+67 - Which Swing class is commonly used for animations?
+Clock
+ThreadLoop
+> Timer
+AnimationRunner
+Swing Timers repeatedly trigger events at
+fixed intervals, making them useful for
+animations and countdowns.
+
+68 - What does a Timer mainly do in Swing?
+Store images
+Read files
+> Trigger repeated actions
+Create layouts
+Timers repeatedly execute code after a
+specified delay.
+
+69 - Which interface handles button clicks?
+MouseListener
+KeyListener
+> ActionListener
+ButtonListener
+ActionListener detects actions such as
+button presses and menu selections.
+
+70 - Which method belongs to ActionListener?
+mousePressed()
+keyTyped()
+> actionPerformed(ActionEvent e)
+clicked()
+The actionPerformed method runs whenever
+an action event occurs.
+
+71 - Which listener detects keyboard input?
+MouseListener
+ActionListener
+> KeyListener
+TimerListener
+KeyListener responds to keyboard events
+such as typing and key presses.
+
+72 - Which method gets the typed keyboard character?
+e.getKey()
+e.getButton()
+> e.getKeyChar()
+e.char()
+getKeyChar returns the actual character
+typed by the user.
+
+73 - Which listener detects mouse movement?
+MouseListener
+ActionListener
+> MouseMotionListener
+HoverListener
+MouseMotionListener tracks mouse movement
+without requiring clicks.
+
+74 - Which method runs when the mouse enters a component?
+mouseInside()
+hover()
+> mouseEntered(MouseEvent e)
+mouseStart()
+mouseEntered activates when the cursor moves
+into a component’s area.
+
+75 - What does e.getSource() return?
+The mouse location
+The programmer name
+> The component that triggered the event
+The source code
+getSource identifies which object caused
+the event to happen.
+
+76 - Why might a JPanel fail to detect keyboard input?
+The panel is too small.
+The JFrame is invisible.
+> The panel is not focusable.
+The layout is wrong.
+Components must usually be focusable before
+they can receive keyboard events.
+
+77 - Which method allows a JPanel to receive keyboard focus?
+panel.enableKeys();
+panel.activate();
+> panel.setFocusable(true);
+panel.setKeyboard(true);
+setFocusable(true) allows the panel to
+accept keyboard input events.
+
+78 - Which event happens when a mouse button is pressed?
+mouseDragged
+mouseEntered
+> mousePressed
+mouseMoved
+mousePressed activates the moment the mouse
+button is pushed down.
+
+79 - Which listener is commonly used for detecting mouse clicks?
+KeyListener
+ActionListener
+> MouseListener
+TimerListener
+MouseListener handles mouse interactions
+such as clicking and pressing.
+
+80 - What is the main purpose of event listeners?
+To store graphics
+To create files
+> To wait for user actions
+To replace loops
+Event listeners constantly wait for events
+like clicks, typing, or movement and then
+respond appropriately.
+
+81 - What happens if repaint() is never called during animation?
+The animation becomes faster.
+The file closes.
+> The screen will not visually update.
+The Timer stops.
+Animations require repaint calls so Swing
+knows it must redraw the graphics.
+
+82 - Which method commonly updates animation variables?
+paintComponent
+main
+> actionPerformed
+drawImage
+Timers usually trigger actionPerformed
+repeatedly to update animation data.
+
+83 - What does Thread.sleep() mainly do?
+Deletes memory
+Restarts Java
+> Pauses execution temporarily
+Creates graphics
+Thread.sleep pauses program execution for
+a specific amount of time.
+
+84 - Which method draws text onto graphics?
+g.text()
+g.print()
+> g.drawString()
+g.write()
+drawString displays text at specific x
+and y coordinates.
+
+85 - Which class stores font information?
+FontStyle
+TextFont
+> Font
+GraphicsFont
+The Font class controls text appearance
+such as style and size.
+
+86 - Which constant makes text bold?
+Font.THICK
+Font.DARK
+> Font.BOLD
+Font.HEAVY
+Font.BOLD creates thicker bold characters
+for displayed text.
+
+87 - Which method changes the current font?
+g.font()
+g.textStyle()
+> g.setFont()
+g.changeFont()
+setFont changes the font used for future
+text drawing operations.
+
+88 - What does Image.SCALE_DEFAULT do?
+Deletes images
+Rotates images
+> Resizes images using default scaling
+Creates transparent images
+SCALE_DEFAULT tells Java to resize images
+using standard scaling behavior.
+
+89 - Why are timers useful in games?
+They increase RAM.
+They reduce graphics quality.
+> They automate repeated actions over time.
+They replace objects.
+Timers repeatedly run code automatically,
+making them ideal for movement and countdowns.
+
+90 - What is the purpose of CardLayout in games?
+Drawing circles
+Reading files
+> Switching between screens
+Handling keyboard input
+CardLayout makes it easy to switch between
+menus, gameplay screens, and result panels.
+
+91 - Which class creates clickable buttons?
+JFrame
+JPanel
+> JButton
+JLabel
+JButton creates interactive buttons that
+users can click to trigger actions.
+
+92 - Which component is mainly used to display text?
+JButton
+JTextField
+> JLabel
+JSlider
+JLabels display non-editable text or images
+inside Swing applications.
+
+93 - Which component allows single-line user input?
+JLabel
+JTextArea
+> JTextField
+JMenu
+JTextField allows users to type one line
+of editable text.
+
+94 - Which component is better for multi-line text?
+JButton
+JTextField
+> JTextArea
+JFrame
+JTextArea supports multiple lines and is
+commonly used for paragraphs or logs.
+
+95 - Which layout manager places components left to right?
+GridLayout
+BorderLayout
+> FlowLayout
+CardLayout
+FlowLayout arranges components in order
+from left to right.
+
+96 - Which Swing component creates menus at the top of a window?
+JLabel
+JPanel
+> JMenuBar
+JScrollPane
+JMenuBar creates horizontal menus commonly
+seen at the top of applications.
+
+97 - Which class represents dropdown menu sections?
+JPanel
+JButton
+> JMenu
+JLabel
+JMenu represents clickable dropdown menu
+categories like File or Edit.
+
+98 - Which class represents clickable items inside menus?
+JFrame
+JPanel
+> JMenuItem
+GridLayout
+JMenuItems are selectable commands placed
+inside JMenu dropdowns.
+
+99 - Why are graphics coordinates important?
+They increase CPU speed.
+They store files.
+> They determine drawing positions.
+They control inheritance.
+Coordinates tell Java exactly where objects
+should appear on screen.
+
+100 - What is the biggest advantage of event-driven programming?
+No variables are needed.
+Programs become smaller automatically.
+> The program reacts to user actions dynamically.
+Loops become unnecessary.
+Event-driven programming allows applications
+to respond interactively to clicks, typing,
+timers, and movement.
+
+101 - Which keyword is used to stop a method and send back a value?
+break
+continue
+> return
+yield
+The return keyword immediately exits a method.
+If the method has a return type, it also
+sends a value back to the location where
+the method was called.
+
+102 - What happens if a method is declared void?
+It returns an int automatically.
+It can only print text.
+> It does not return a value.
+It creates an object.
+A void method performs actions without
+sending any value back after execution.
+These methods are commonly used for
+printing or updating data.
+
+103 - Which access modifier allows access from any class?
+private
+protected
+> public
+hidden
+Public members can be accessed from any
+class in the program. This makes them
+fully visible everywhere.
+
+104 - Which access modifier restricts access to only the same class?
+global
+protected
+> private
+default
+Private variables and methods can only
+be used inside their own class. This
+helps protect sensitive data.
+
+105 - What is the purpose of a method parameter?
+To delete objects
+To stop loops
+> To pass data into methods
+To create graphics
+Parameters allow methods to receive data
+when they are called. This makes methods
+more flexible and reusable.
+
+106 - Which keyword creates a class variable shared by all objects?
+final
+this
+> static
+shared
+Static variables belong to the class itself
+instead of individual objects. All objects
+share the same static variable.
+
+107 - What happens if two methods have the same name but different parameters?
+The program crashes.
+One method is deleted.
+> Method overloading occurs.
+Inheritance stops.
+Method overloading allows multiple methods
+to share the same name as long as their
+parameter lists are different.
+
+108 - Which keyword is used to import classes from another package?
+include
+package
+> import
+using
+The import keyword allows programmers to
+use classes from other packages without
+writing the full package name each time.
+
+109 - What is the purpose of constructors?
+To destroy objects
+To handle files
+> To initialize new objects
+To create loops
+Constructors automatically run when objects
+are created. They are mainly used to
+initialize object data.
+
+110 - Which method is the starting point of a Java application?
+run()
+start()
+> main()
+launch()
+The main method is where Java programs begin
+execution. Without it, standalone programs
+cannot start.
+
+111 - Which symbol is used to access object methods and variables?
+#
+:
+> .
+@
+The dot operator connects an object to its
+methods or variables. For example:
+object.method().
+
+112 - What does null represent in Java?
+Zero
+An empty String
+> No object reference
+A false boolean
+Null means a variable does not currently
+refer to any object in memory.
+
+113 - Which data type stores only true or false values?
+int
+char
+> boolean
+double
+Boolean variables only contain true or false.
+They are commonly used for conditions
+and decision making.
+
+114 - Which keyword is used to make decisions between multiple choices?
+repeat
+for
+> switch
+final
+Switch statements compare one value against
+multiple possible cases and execute the
+matching section of code.
+
+115 - What happens if break is missing in a switch case?
+The program crashes.
+The switch restarts.
+> Execution falls into the next case.
+The condition becomes false.
+Without break, Java continues executing
+the next case statements automatically.
+This is called fall-through behavior.
+
+116 - Which keyword is used to repeatedly execute code while a condition is true?
+switch
+if
+> while
+return
+A while loop continues repeating as long
+as its condition remains true.
+
+117 - What is the purpose of an if statement?
+To create files
+To draw graphics
+> To make decisions
+To create arrays
+If statements allow programs to choose
+between different actions depending on
+conditions.
+
+118 - Which operator means logical AND?
+||
+%
+> &&
+!=
+The && operator requires both conditions
+to be true for the overall expression
+to become true.
+
+119 - What does System.out.println do?
+Deletes files
+Reads input
+> Prints output followed by a new line
+Creates objects
+println displays text or values to the
+console and then moves to the next line.
+
+120 - Which class is commonly used for user keyboard input?
+Timer
+Graphics
+> Scanner
+PrintWriter
+Scanner allows programs to read input from
+the keyboard or files.
+
+121 - Which package contains JFrame?
+java.io
+java.util
+> javax.swing
+java.awt
+JFrame belongs to the Swing library inside
+the javax.swing package.
+
+122 - What does setBackground(Color.BLACK) do?
+Changes text size
+Moves components
+> Changes the background color
+Creates borders
+setBackground changes the color behind
+components or panels.
+
+123 - Which method adds a component onto a JPanel?
+insert()
+attach()
+> add()
+append()
+The add method places components such as
+buttons or labels into containers.
+
+124 - Which Swing component is mainly used for clickable options?
+JLabel
+JTextArea
+> JButton
+JPanel
+JButtons create interactive controls that
+users can click to trigger actions.
+
+125 - What is the purpose of repaint() in Swing?
+Restart the JFrame
+Delete graphics
+> Request the component to redraw
+Resize windows
+repaint tells Swing that graphics should
+be refreshed using paintComponent.
+
+126 - Which method is responsible for custom graphics drawing?
+draw()
+render()
+> paintComponent(Graphics g)
+display()
+paintComponent is overridden whenever custom
+graphics need to be drawn on a JPanel.
+
+127 - Which coordinate increases when moving right in Java graphics?
+y
+height
+> x
+scale
+Moving right increases the x-coordinate
+because Java graphics use horizontal
+coordinates for left and right movement.
+
+128 - Which coordinate increases when moving downward?
+x
+width
+> y
+speed
+Java graphics coordinates increase downward
+along the y-axis.
+
+129 - Which class is commonly used to load image files?
+JFrame
+Timer
+> ImageIcon
+Scanner
+ImageIcon loads image files so they can
+be displayed in Swing applications.
+
+130 - Which interface detects keyboard input events?
+MouseListener
+ActionListener
+> KeyListener
+GraphicsListener
+KeyListener responds to key presses,
+releases, and typed characters.
+
+131 - Which method detects when a key is pressed?
+mousePressed()
+actionPerformed()
+> keyPressed()
+keyTyped()
+The keyPressed method activates the moment
+a keyboard key is pushed down.
+
+132 - What does setFocusable(true) mainly allow?
+Faster graphics
+More RAM
+> Keyboard focus
+Automatic layouts
+Components usually need keyboard focus before
+they can receive key events.
+
+133 - Which Swing class repeatedly triggers actions over time?
+Graphics
+Scanner
+> Timer
+Font
+Timers repeatedly execute code after a
+specified delay, making them useful
+for animation.
+
+134 - Which method usually updates animation movement in Swing?
+paintComponent()
+main()
+> actionPerformed()
+drawImage()
+Animations commonly update variables inside
+actionPerformed because Timers repeatedly
+call this method.
+
+135 - Why is super.paintComponent(g) important in animation?
+It creates images.
+It speeds up loops.
+> It clears old drawings correctly.
+It handles keyboard input.
+Calling super.paintComponent removes previous
+graphics so moving objects do not leave
+trails behind.
